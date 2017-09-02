@@ -2,46 +2,111 @@
 <html>
 <head>
   <title>Cookie Store</title>
+  <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
+	<link rel="stylesheet" href="css/styles.css" type="text/css">
 </head>
 <body>
 
+<div class="container-fluid">
+	<div class="row" id="header">
+		<div class="col-sm-offset-4 col-sm-4 col-md-offset-4 col-md-4 text-center" id="header-txt">
+			<h1>Cookie Store</h1>
+			<h4>Buy our awesome cookies. All proceeds go to charity!</h4>
+		</div>
+	</div>
+		
 
-<h1>Cookie Store</h1>
 
-<p>Buy our awesome cookies. All proceeds go to charity!</p>
+	<div id="thecookies">
+		<h2 class="text-center">The Cookies</h2>
+		<!--Thin Mint Cookies-->
+		<div class="row">
+			<div class="col-sm-12 col-xs-12 text-center col-md-6 col-lg-6">
+				<h3>Thin Mint Cookies <span class="label label-danger">New</span></h3>
+				<p>Tasty mint chocolate cookies</p>
+			</div>
+			<div class="col-md-6 col-lg-6">
+				<img src="img/mint.png" class="img-circle img-responsive center-block">
+			</div>
+		</div>
+		
+		<!--Peanut Butter Cookies-->
+		<div class="row">
+			<div class="col-sm-12 col-xs-12 text-center col-md-6 col-lg-6 col-md-push-6 col-lg-push-6">
+				<h3>Peanut Butter Cookies</h3>
+				<p>Yummy peanut buttery goodness!</p>
+			</div>
+			<div class="col-md-6 col-lg-6 col-md-pull-6 col-lg-pull-6">
+				<img src="img/peanut.png" class="img-circle img-responsive center-block">
+			</div>
+		</div>
+		
+		<!--Short Bread Cookies-->
+		<div class="row">
+			<div class="col-sm-12 col-xs-12 text-center col-md-6 col-lg-6">
+				<h3>Short Bread Cookies</h3>
+				<p>Santa's favorite classic.</p>
+			</div>
+			<div class="col-md-6 col-lg-6">
+				<img src="img/shortbread.png" class="img-circle img-responsive center-block">
+			</div>
+		</div>
 
-<h2>The Cookies</h2>
+		<!--Smore's Cookies-->
+		<div class="row">
+			<div class="col-sm-12 col-xs-12 text-center col-md-6 col-lg-6 col-md-push-6 col-lg-push-6">
+				<h3>Smore's Cookies</h3>
+				<p>Camp fire favorite!</p>
+			</div>
+			<div class="col-md-6 col-lg-6 col-md-pull-6 col-lg-pull-6">
+				<img src="img/smores.png" class="img-circle img-responsive center-block">
+			</div>
+		</div>
+		
+	</div>
 
-<h3>Thin Mint Cookies</h3>
-<p>Tasty mint chocolate cookies</p>
-<img src="img/mint.png">
+	<div class="row" id="aboutus">
+		<div class="col-md-12 col-sm-12 text-center">
+			<h2>About us</h2>
+			<img src="img/cmonster.png" class="img-responsive" id="cmonster">
+			<div id="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+		</div>
+	</div>
 
-<h3>Peanut Butter Cookies</h3>
-<p>Yummy peanut buttery goodness!</p>
-<img src="img/peanut.png">
 
-<h3>Short Bread Cookies</h3>
-<p>Santa's favorite classic.</p>
-<img src="img/shortbread.png">
+	<div class="row" id="footer">
+		<div class="col-md-12 col-sm-12 text-center">
+			<h2>Contact us</h2>
+			<div>
+			  100 Broadway Avenue,<br>
+			  New York, NY 10001 <br>
+			  (212) 555-1234
+			</div>
+		</div>
+	</div>
 
-<h3>Smore's Cookies</h3>
-<p>Camp fire favorite!</p>
-<img src="img/smores.png">
 
-<h2>About us</h2>
-<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
 
-<h2>Contact us</h2>
-<div>
-  100 Broadway Avenue,<br>
-  New York, NY 10001 <br>
-  (212) 555-1234
+
+
+
+
+
+
+
 </div>
-
 </body>
 </html>

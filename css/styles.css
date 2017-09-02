@@ -1,1 +1,42 @@
+.row {
+	padding-bottom: 30px;
+}
 
+#header {
+	background: url('../img/milkbg.jpg') no-repeat center center;
+	background-size: cover;
+	height: 500px;
+}
+
+#header-txt {
+	background-color: rgba(00, 00, 00, 0.6);
+	color: #FFF;
+	height: 200px;
+	padding-top: 30px;
+	margin-top: 150px;
+
+}
+
+#cmonster {
+	float: left;
+}
+
+#lorem {
+	padding: 50px 10% 0px 30%; 
+}
+
+#footer {
+	background-color: #5DBCD2;
+	padding: 20px 20px;
+	color: #FFF;
+}
+
+#aboutus {
+	background-color: #D3D3D3;
+}
+
+#thecookies {
+	padding: 40px 40px;
+	width: 60%;
+	margin: auto;
+}
